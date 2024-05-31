@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background: radial-gradient(#fff, #242425);
+    
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 100px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #5b5a5a;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #959494;
+}
+
+.header {
+    z-index: 1;
+    position: absolute;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #5b5a5a;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    
+}
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}

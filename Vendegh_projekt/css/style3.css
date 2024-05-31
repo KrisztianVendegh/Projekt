@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding: 100px;
+}
+
+.thank-you-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #000000;
+}
+
+p {
+    color: #333;
+}
+.btn{
+    font-size: 17px;
+    display: inline-block;
+    background: #333334;
+    color: #fff;
+    padding: 0px 30px;
+    margin: 0px auto;
+    border-radius: 20px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #959494;
+}
+
