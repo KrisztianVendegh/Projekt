@@ -9,7 +9,7 @@ if(isset($_POST['user_login'])){
     $login_success = $user_object->login($email,$password);
     //ak metóda vráti TRUE
     if($login_success == true){
-        header('Location: info.php');
+        header('Location: admin.php');
         die;
     }else{
         echo 'Nesprávne meno alebo heslo';
